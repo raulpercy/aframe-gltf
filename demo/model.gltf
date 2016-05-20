@@ -1,0 +1,1014 @@
+{
+    "accessors": {
+        "accessor_102": {
+            "bufferView": "bufferView_254",
+            "byteOffset": 4068,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 36,
+            "type": "SCALAR"
+        },
+        "accessor_104": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 11688,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_106": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 11976,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_21": {
+            "bufferView": "bufferView_254",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 18,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 16,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 192,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 16,
+            "max": [
+                0.894427,
+                0.447214,
+                0.894427
+            ],
+            "min": [
+                -0.894427,
+                -1,
+                -0.894427
+            ],
+            "type": "VEC3"
+        },
+        "accessor_48": {
+            "bufferView": "bufferView_254",
+            "byteOffset": 36,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 432,
+            "type": "SCALAR"
+        },
+        "accessor_50": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 384,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 148,
+            "max": [
+                0.5,
+                1,
+                0.5
+            ],
+            "min": [
+                -0.5,
+                -1,
+                -0.5
+            ],
+            "type": "VEC3"
+        },
+        "accessor_52": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 2160,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 148,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_75": {
+            "bufferView": "bufferView_254",
+            "byteOffset": 900,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1584,
+            "type": "SCALAR"
+        },
+        "accessor_77": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 3936,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 323,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_79": {
+            "bufferView": "bufferView_255",
+            "byteOffset": 7812,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 323,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "animAccessor_0": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3,
+            "type": "SCALAR"
+        },
+        "animAccessor_1": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 12,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC3"
+        },
+        "animAccessor_2": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 48,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC4"
+        },
+        "animAccessor_3": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 96,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC3"
+        },
+        "animAccessor_4": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 132,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC3"
+        },
+        "animAccessor_5": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 168,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC3"
+        },
+        "animAccessor_6": {
+            "bufferView": "bufferView_253",
+            "byteOffset": 204,
+            "componentType": 5126,
+            "count": 3,
+            "type": "VEC3"
+        }
+    },
+    "animations": {
+        "animation_0": {
+            "channels": [
+                {
+                    "sampler": "animation_0_translation_sampler",
+                    "target": {
+                        "id": "ID10",
+                        "path": "translation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "translation": "animAccessor_1"
+            },
+            "samplers": {
+                "animation_0_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_1": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_10": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_11": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_12": {
+            "channels": [
+                {
+                    "sampler": "animation_12_rotation_sampler",
+                    "target": {
+                        "id": "ID118",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_12_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                }
+            }
+        },
+        "animation_13": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_14": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_15": {
+            "channels": [
+                {
+                    "sampler": "animation_15_scale_sampler",
+                    "target": {
+                        "id": "ID118",
+                        "path": "scale"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "scale": "animAccessor_3"
+            },
+            "samplers": {
+                "animation_15_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                }
+            }
+        },
+        "animation_16": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_17": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_18": {
+            "channels": [
+                {
+                    "sampler": "animation_18_translation_sampler",
+                    "target": {
+                        "id": "ID226",
+                        "path": "translation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_18_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_19": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_2": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_20": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_21": {
+            "channels": [
+                {
+                    "sampler": "animation_21_rotation_sampler",
+                    "target": {
+                        "id": "ID226",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_21_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                }
+            }
+        },
+        "animation_22": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_23": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_24": {
+            "channels": [
+                {
+                    "sampler": "animation_24_scale_sampler",
+                    "target": {
+                        "id": "ID226",
+                        "path": "scale"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "scale": "animAccessor_3"
+            },
+            "samplers": {
+                "animation_24_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                }
+            }
+        },
+        "animation_25": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_26": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_27": {
+            "channels": [
+                {
+                    "sampler": "animation_27_translation_sampler",
+                    "target": {
+                        "id": "ID334",
+                        "path": "translation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "translation": "animAccessor_5"
+            },
+            "samplers": {
+                "animation_27_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_28": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_29": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_3": {
+            "channels": [
+                {
+                    "sampler": "animation_3_rotation_sampler",
+                    "target": {
+                        "id": "ID10",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_3_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                }
+            }
+        },
+        "animation_30": {
+            "channels": [
+                {
+                    "sampler": "animation_30_rotation_sampler",
+                    "target": {
+                        "id": "ID334",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_30_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                }
+            }
+        },
+        "animation_31": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_32": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_33": {
+            "channels": [
+                {
+                    "sampler": "animation_33_scale_sampler",
+                    "target": {
+                        "id": "ID334",
+                        "path": "scale"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "scale": "animAccessor_3"
+            },
+            "samplers": {
+                "animation_33_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                }
+            }
+        },
+        "animation_34": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_35": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_4": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_5": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_6": {
+            "channels": [
+                {
+                    "sampler": "animation_6_scale_sampler",
+                    "target": {
+                        "id": "ID10",
+                        "path": "scale"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "scale": "animAccessor_3"
+            },
+            "samplers": {
+                "animation_6_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                }
+            }
+        },
+        "animation_7": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_8": {
+            "channels": [],
+            "parameters": {
+                "TIME": "animAccessor_0"
+            },
+            "samplers": {}
+        },
+        "animation_9": {
+            "channels": [
+                {
+                    "sampler": "animation_9_translation_sampler",
+                    "target": {
+                        "id": "ID118",
+                        "path": "translation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "translation": "animAccessor_6"
+            },
+            "samplers": {
+                "animation_9_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        }
+    },
+    "asset": {
+        "generator": "collada2gltf@bc44b82e3461dfb4da806c773dafd20559f62445",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_253": {
+            "buffer": "model",
+            "byteLength": 240,
+            "byteOffset": 0
+        },
+        "bufferView_254": {
+            "buffer": "model",
+            "byteLength": 4140,
+            "byteOffset": 240,
+            "target": 34963
+        },
+        "bufferView_255": {
+            "buffer": "model",
+            "byteLength": 12264,
+            "byteOffset": 4380,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "model": {
+            "byteLength": 16644,
+            "type": "arraybuffer",
+            "uri": "model.bin"
+        }
+    },
+    "materials": {
+        "ID2": {
+            "name": "Mat.3",
+            "technique": "technique1",
+            "values": {
+                "diffuse": [
+                    0.47,
+                    0.47,
+                    0.47,
+                    1
+                ],
+                "shininess": 64,
+                "specular": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    1
+                ]
+            }
+        },
+        "ID4": {
+            "name": "Mat.2",
+            "technique": "technique1",
+            "values": {
+                "diffuse": [
+                    0.8,
+                    0.189067,
+                    0.168,
+                    1
+                ],
+                "shininess": 64,
+                "specular": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    1
+                ]
+            }
+        },
+        "ID6": {
+            "name": "Mat.1",
+            "technique": "technique1",
+            "values": {
+                "diffuse": [
+                    0.224,
+                    0.8,
+                    0.2624,
+                    1
+                ],
+                "shininess": 64,
+                "specular": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    1
+                ]
+            }
+        },
+        "ID8": {
+            "name": "Mat",
+            "technique": "technique1",
+            "values": {
+                "diffuse": [
+                    0.216,
+                    0.3036,
+                    0.8,
+                    1
+                ],
+                "shininess": 64,
+                "specular": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "ID110": {
+            "name": "ID110",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23"
+                    },
+                    "indices": "accessor_21",
+                    "material": "ID2",
+                    "mode": 4
+                }
+            ]
+        },
+        "ID218": {
+            "name": "ID218",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_52",
+                        "POSITION": "accessor_50"
+                    },
+                    "indices": "accessor_48",
+                    "material": "ID6",
+                    "mode": 4
+                }
+            ]
+        },
+        "ID326": {
+            "name": "ID326",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_79",
+                        "POSITION": "accessor_77"
+                    },
+                    "indices": "accessor_75",
+                    "material": "ID4",
+                    "mode": 4
+                }
+            ]
+        },
+        "ID434": {
+            "name": "ID434",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_106",
+                        "POSITION": "accessor_104"
+                    },
+                    "indices": "accessor_102",
+                    "material": "ID8",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "ID10": {
+            "children": [],
+            "meshes": [
+                "ID110"
+            ],
+            "name": "Pyramid",
+            "rotation": [
+                0,
+                0.998761,
+                0,
+                -0.049765
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                6.88024e-16,
+                0,
+                -5.70961
+            ]
+        },
+        "ID118": {
+            "children": [],
+            "meshes": [
+                "ID218"
+            ],
+            "name": "Cylinder",
+            "rotation": [
+                0,
+                0.998761,
+                0,
+                -0.049765
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                -5.70961,
+                0,
+                -6.88024e-16
+            ]
+        },
+        "ID226": {
+            "children": [],
+            "meshes": [
+                "ID326"
+            ],
+            "name": "Sphere",
+            "rotation": [
+                0,
+                0.998761,
+                0,
+                -0.049765
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                5.70961,
+                0,
+                6.88024e-16
+            ]
+        },
+        "ID334": {
+            "children": [],
+            "meshes": [
+                "ID434"
+            ],
+            "name": "Cube",
+            "rotation": [
+                0,
+                0.998761,
+                0,
+                -0.049765
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                -6.88024e-16,
+                0,
+                5.70961
+            ]
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "model0FS",
+            "vertexShader": "model0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "ID10",
+                "ID118",
+                "ID226",
+                "ID334"
+            ]
+        }
+    },
+    "shaders": {
+        "model0FS": {
+            "type": 35632,
+            "uri": "model0FS.glsl"
+        },
+        "model0VS": {
+            "type": 35633,
+            "uri": "model0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique1": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "diffuse": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_diffuse": "diffuse",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    }
+}

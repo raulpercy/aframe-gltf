@@ -1,0 +1,22 @@
+{
+  "name": "aframe-gltf",
+  "version": "1.0.0",
+  "authors": [
+    "Chris Miller <chris@xirvr.com>"
+  ],
+  "description": "aframe-gltf",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "DefinitelyTyped": "*",
+    "three.js": "https://github.com/mrdoob/three.js.git"
+  }
+}

@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>aframe-gltf</title>
+    <meta name="description" content="aframe-gltf">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script src="aframe-gltf.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 11]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <a-scene id="scene">
+      <a-assets>
+        <a-asset-item id="model" src="model.gltf"></a-asset-item>
+      </a-assets>
+      <a-camera id="camera" fov="80" near="0.1" wasd-controls-enabled="false"></a-camera>
+      <a-entity gltf-model="src: #model; loop: true; auto: true;">` 
+    </a-scene>
+  </body>
+</html>
