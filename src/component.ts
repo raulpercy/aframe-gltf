@@ -16,20 +16,23 @@ module AFRAMEGLTF {
 
     this.remove();
 
-    loader.load(src, function (gltfModel) {
-      let i = null,
-          len = null,
-          animation = null;
+    loader.load(src, function (_gltf) {
+      gltf = _gltf;
 
-      gltf = gltfModel;
-      self.model = gltfModel.scene;
+      self.model = gltf.scene;
+      self.animations = gltf.animations || {};
+
       el.setObject3D('mesh', self.model);
-      el.emit('model-loaded', {format: 'gltf', model: self.model});
+      el.emit('model-loaded', {
+        format: 'gltf',
+        model: self.model,
+        animations: self.animations
+      });
 
       if (gltf.animations && gltf.animations.length) {
-        len = gltf.animations.length;
-        for (i = 0; i < len; i++) {
-          animation = gltf.animations[i];
+        let len = (gltf.animations) ? gltf.animations.length : 0;
+        while (len--) {
+          let animation = gltf.animations[len];
           animation.loop = loop;
           if (auto) {
             animation.play();

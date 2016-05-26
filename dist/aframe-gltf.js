@@ -3043,16 +3043,20 @@ var AFRAMEGLTF;
             return;
         }
         this.remove();
-        loader.load(src, function (gltfModel) {
-            var i = null, len = null, animation = null;
-            gltf = gltfModel;
-            self.model = gltfModel.scene;
+        loader.load(src, function (_gltf) {
+            gltf = _gltf;
+            self.model = gltf.scene;
+            self.animations = gltf.animations || {};
             el.setObject3D('mesh', self.model);
-            el.emit('model-loaded', { format: 'gltf', model: self.model });
+            el.emit('model-loaded', {
+                format: 'gltf',
+                model: self.model,
+                animations: self.animations
+            });
             if (gltf.animations && gltf.animations.length) {
-                len = gltf.animations.length;
-                for (i = 0; i < len; i++) {
-                    animation = gltf.animations[i];
+                var len = (gltf.animations) ? gltf.animations.length : 0;
+                while (len--) {
+                    var animation = gltf.animations[len];
                     animation.loop = loop;
                     if (auto) {
                         animation.play();
